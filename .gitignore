@@ -1,0 +1,35 @@
+# Ambiente virtual Python
+.venv/
+
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados vetorial Qdrant (persistência local)
+qdrant_data/
+
+# Banco de dados vetorial antigo (Chroma, se existir)
+vector_db/
+
+# Logs de execução
+logs/
+*.log
+
+# Arquivo de variáveis de ambiente (credenciais)
+.env
+
+# Dados temporários de testes/calibração
+.pytest_vector/
+.calib_vec/
+
+# Arquivos de sistema do VSCode/IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arquivos do Word/PDF originais (opcional, se sensível)
+docs/
+*.docx
+*.pdf

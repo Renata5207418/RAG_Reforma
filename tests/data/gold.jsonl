@@ -1,0 +1,4 @@
+{"question": "O que é o cashback tributário?", "ideal_answer_contains": ["devolução", "baixa renda"]}
+{"question": "Qual imposto substitui PIS e Cofins?", "ideal_answer_contains": ["CBS"]}
+{"question": "Quando começa a transição para o novo modelo?", "ideal_answer_contains": ["2026"]}
+{"question": "Quem vai gerir o IBS?", "ideal_answer_contains": ["comitê"]}
