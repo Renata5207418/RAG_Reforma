@@ -10,7 +10,7 @@ from src.config import settings
 import logging
 
 log = logging.getLogger(__name__)
-_client = QdrantClient(host="localhost", port=6333, timeout=30, api_key=settings.qdrant_api_key or None)
+_client = QdrantClient(url="http://localhost:6333", timeout=30, api_key=settings.qdrant_api_key)
 
 
 def _ensure_collection(collection: str):
